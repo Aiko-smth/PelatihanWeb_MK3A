@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CareerPath</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@24,400,0,0" />
+
+</head>
+<body>
+  <!-- Navbar -->
+  <header class="navbar">
+    <div class="logo">
+      <span style="font-family: 'Satisfy', monospace;">C</span>areer<span style="font-family: 'Satisfy', monospace;">P</span>ath</div>
+    <nav>
+      <ul>
+        <li><a href="#home">Beranda</a></li>
+        <li><a href="#pelatihan">Pelatihan</a></li>
+        <li><a href="#kontak">Kontak</a></li>
+      </ul>
+    </nav>
+    <div class="search-bar">
+      <img src="images/search.png">
+      <input type="text" id="searchInput" placeholder="Cari Lowongan" />
+    </div>
+    <button class="signup">
+      <p>Sign up</p>
+    </button>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero" id="home">
+    <div class="hero-content">
+      <div class="header">
+        <img src="images/header/homeheader.png">
+      </div>
+      <p>
+        Bangun masa depanmu dengan karier<br>
+        pertama di <span style="font-family: 'Satisfy', monospace;">C</span>areer<span style="font-family: 'Satisfy', monospace;">P</span>ath
+      </p>
+      <div class="hero-btn">
+        <a href="#" class="btn-primary">Daftar Sekarang</a>
+        <a href="#" class="btn-outline">Detail</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="collab" id="collab">
+    <p>Kolaborasi Perusahaan</p>
+    <div class="logo-container">
+      <img src="images/kolaborasi/kkri.png" style="width: 140px;">
+      <img src="images/kolaborasi/telkom.png" style="width: 120px;">
+      <img src="images/kolaborasi/garuda.png" style="width: 120px;">
+      <img src="images/kolaborasi/liongroup.png" style="width: 140px;">
+      <img src="images/kolaborasi/posidn.png" style="width: 100px;">
+    </div>
+  </section>
+
+  <!-- Lowongan -->
+  <section class="lowongan" id="lowongan">
+    <img src="images/header/lowongan2025.png">
+
+    <div class="container swiper">
+    <div class="card-wrapper">
+      <!-- Card slides container -->
+      <ul class="card-list swiper-wrapper">
+        <li class="card-item swiper-slide">
+          <a href="#" class="card-link">
+            <p class="badge badge-designer">Backend Developer</p>
+            <h2 class="card-title">Mengembangkan server, database, dan API untuk mendukung aplikasi perusahaan.</h2>
+            <button class="card-button material-symbols-rounded">arrow_forward</button>
+          </a>
+        </li>
+        <li class="card-item swiper-slide">
+          <a href="#" class="card-link">
+            <p class="badge badge-developer">UI UX Designer</p>
+            <h2 class="card-title">Mendesain tampilan dan pengalaman pengguna website agar lebih nyaman.</h2>
+            <button class="card-button material-symbols-rounded">arrow_forward</button>
+          </a>
+        </li>
+        <li class="card-item swiper-slide">
+          <a href="#" class="card-link">
+            <p class="badge badge-marketer">Staff Administrasi</p>
+            <h2 class="card-title">Mengelola dokumen, data, dan kebutuhan administrasi harian perusahaan.</h2>
+            <button class="card-button material-symbols-rounded">arrow_forward</button>
+          </a>
+        </li>
+        <li class="card-item swiper-slide">
+          <a href="#" class="card-link">
+            <p class="badge badge-gamer">Digital Marketer</p>
+            <h2 class="card-title">Menjalankan strategi promosi digital untuk meningkatkan brand dan penjualan.</h2>
+            <button class="card-button material-symbols-rounded">arrow_forward</button>
+          </a>
+        </li>
+        <li class="card-item swiper-slide">
+          <a href="#" class="card-link">
+            <p class="badge badge-editor">Cyber Security</p>
+            <h2 class="card-title">Melindungi sistem dan data perusahaan melalui monitoring serta strategi keamanan.</h2>
+            <button class="card-button material-symbols-rounded">arrow_forward</button>
+          </a>
+        </li>
+      </ul>
+
+      <!-- Pagination -->
+      <div class="swiper-pagination"></div>
+
+      <!-- Navigation Buttons -->
+      <div class="swiper-slide-button swiper-button-prev"></div>
+      <div class="swiper-slide-button swiper-button-next"></div>
+    </div>
+  </div>
+
+  <!-- SwiperJS script -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    
+  </section>
+
+  <!-- Pelatihan -->
+   <div class="pelatihan">
+    <h2 class="pel-title">Pelatihan</h2>
+   </div>
+  <div class="cards">
+    <!-- Card 1 -->
+    <div class="card">
+      <img src="images/pelatihan/administrasi.jpg" alt="Administrasi">
+      <div class="card-content">
+        <p class="category">Bisnis dan Manajemen</p>
+        <h3 class="title">Administrasi Profesional Kop ...</h3>
+        <div class="tags">
+          <span class="tag online">Online</span>
+          <span class="tag offline">Offline</span>
+        </div>
+        <p class="price">Harga <br><span>150 IDR</span></p>
+        <a href="#" class="btn">Ikuti Pelatihan</a>
+        <p class="footer-text">
+          <span style="font-family: 'Satisfy', monospace;">C</span>areer<span style="font-family: 'Satisfy', monospace;">P</span>ath</p>
+      </div>
+    </div>
+
+    <!-- Card 2 -->
+    <div class="card">
+      <img src="images/pelatihan/pubspeak.jpg" alt="Public Speaking">
+      <div class="card-content">
+        <p class="category">Pengembangan Diri</p>
+        <h3 class="title">Public Speaking & Komunikasi</h3>
+        <div class="tags">
+          <span class="tag online">Online</span>
+          <span class="tag offline">Offline</span>
+        </div>
+        <p class="price">Harga<br><span>110 IDR</span></p>
+        <a href="#" class="btn">Ikuti Pelatihan</a>
+        <p class="footer-text">
+          <span style="font-family: 'Satisfy', monospace;">C</span>areer<span style="font-family: 'Satisfy', monospace;">P</span>ath</p>
+      </div>
+    </div>
+
+    <!-- Card 3 -->
+    <div class="card">
+      <img src="images/pelatihan/excel.jpg" alt="Excel">
+      <div class="card-content">
+        <p class="category">Teknologi Informasi</p>
+        <h3 class="title">Microsoft Excel Lanjutan</h3>
+        <div class="tags">
+          <span class="tag online">Online</span>
+          <span class="tag offline">Offline</span>
+        </div>
+        <p class="price">Harga<br><span>135 IDR</span></p>
+        <a href="#" class="btn">Ikuti Pelatihan</a>
+        <p class="footer-text">
+          <span style="font-family: 'Satisfy', monospace;">C</span>areer<span style="font-family: 'Satisfy', monospace;">P</span>ath</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- 3 Step -->
+  <section class="steps">
+  <h2 class="section-title">3 Step Mudah</h2>
+  <div class="steps-container">
+    <!-- Step 1 -->
+    <div class="step">
+      <img src="images/elemen/list.png" alt="Daftar" class="step-img">
+      <h3>Daftar</h3>
+      <p>Gak ribet, daftar dan buat akun. Dalam hitungan detik kamu siap melangkah ke dunia belajar!</p>
+    </div>
+    
+    <!-- Step 2 -->
+    <div class="step">
+      <img src="images/elemen/book.png" alt="Belajar" class="step-img">
+      <h3>Belajar</h3>
+      <p>Belajar dengan seru, relevan dengan industri, dan langsung upgrade skill untuk masa depan!</p>
+    </div>
+    
+    <!-- Step 3 -->
+    <div class="step">
+      <img src="images/elemen/bag.png" alt="Bekerja" class="step-img">
+      <h3>Bekerja</h3>
+      <p>Kami bimbing kamu sampai dapat kerja. Dapatkan tips wawancara, CV keren dan support lainnya!</p>
+    </div>
+  </div>
+</section>
+
+
+  <!-- Testimoni -->
+  <section class="testimoni-section">
+  <div class="testimoni-container">
+    <!-- Bagian Kiri -->
+    <div class="testimoni-left">
+      <div class="quote"><p>“</p></div>
+      <h2>Jutaan peserta telah<br>meningkatkan<br>keterampilannya</h2>
+      <p class="subtitle">
+        Mari lihat alumni yang telah meningkatkan keterampilan melalui program pelatihan CareerPath
+      </p>
+      <div class="jumlah-peserta">
+        <h3>12.098</h3>
+        <p>Peserta yang terdaftar mengikuti pelatihan</p>
+      </div>
+    </div>
+
+    <!-- Bagian Kanan -->
+    <div class="testimoni-right">
+      <div class="card-test">
+        <p>“Setelah mengikuti pelatihan digital marketing, saya sekarang sudah bisa mengelola kampanye iklan online dan berhasil meningkatkan penjualan produk secara signifikan.”</p>
+        <div class="user">
+          <div class="icon">👤</div>
+          <div>
+            <strong>Rina Marlina</strong><br>
+            <span>Digital Marketer</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="card-test">
+        <p>“Saya belajar banyak tentang desain grafis dari pelatihan. Sekarang saya bisa menerima proyek desain logo dan konten media sosial, bahkan sudah memiliki beberapa klien tetap.”</p>
+        <div class="user">
+          <div class="icon">👤</div>
+          <div>
+            <strong>Andi Saputra</strong><br>
+            <span>Desainer Grafis</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="card-test">
+        <p>“Pelatihan yang saya ikuti sangat membantu. Sekarang saya bisa memperbaiki instalasi listrik dengan standar keamanan yang benar, dan sudah bekerja di perusahaan kontraktor listrik.”</p>
+        <div class="user">
+          <div class="icon">👤</div>
+          <div>
+            <strong>Budi Hartono</strong><br>
+            <span>Teknisi Listrik</span>
+          </div>
+        </div>
+      </div>  
+    </div>
+  </div>
+</section>
+
+  <!-- Footer -->
+<footer class="footer">
+  <div class="footer-container">
+    <!-- Kiri -->
+    <div class="footer-left">
+      <h2 class="logo"><span style="font-family: 'Satisfy', monospace;">C</span>areer<span style="font-family: 'Satisfy', monospace;">P</span>ath</h2>
+      <p class="tagline">Education for the Real World! Lets start your career with us.</p>
+      <p class="copyright">© 2025 CareerPath. All Rights Reserved</p>
+    </div>
+
+    <!-- Kanan -->
+    <div class="footer-right">
+      <div class="footer-column">
+        <h3>Daftar</h3>
+        <p>Pelatihan</p>
+      </div>
+      <div class="footer-column">
+        <h3>Kontak</h3>
+        <p>021 30930000</p>
+        <p>careerpath@gmail.com</p>
+      </div>
+      <div class="footer-column">
+        <h3>Lowongan</h3>
+      </div>
+    </div>
+  </div>
+</footer>
+
+  
+
+  <script src="script.js"></script>
+</body>
+</html>
